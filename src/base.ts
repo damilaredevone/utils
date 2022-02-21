@@ -1,8 +1,15 @@
 import { castArray } from './array';
+import { Fn } from './types';
 
 export const tap = <T>(value: T, callback?: (value: T) => void): T => {
- callback(value);
+ if (isFunction<Fn>(callback)) {
+  callback(value);
+ }
  return value;
+};
+
+export const invoke = (fn: Fn) => {
+ return fn();
 };
 
 export const classNames = (className: string[]): string =>
@@ -11,7 +18,7 @@ export const classNames = (className: string[]): string =>
 export const notNullish = <T>(v: T | null | undefined): v is NonNullable<T> =>
  v != null;
 
-export const isObject = (value: unknown): value is boolean =>
+export const isObject = (value: unknown): value is object =>
  Object.prototype.toString.call(value) === '[object Object]';
 
 export const isBoolean = (val: any): val is boolean => typeof val === 'boolean';
@@ -23,3 +30,10 @@ export const isNumber = (val: any): val is number => typeof val === 'number';
 
 export const scrollTop = (): void =>
  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+export const isKeyOf = <T extends object>(
+ obj: T,
+ k: keyof any,
+): k is keyof T => {
+ return k in obj;
+};
