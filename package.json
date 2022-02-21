@@ -1,0 +1,24 @@
+{
+  "name": "@damilaredev/utils",
+  "version": "0.0.1",
+  "description": "collections of utils",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils",
+    "array",
+    "collections",
+    "string"
+  ],
+  "author": "Damilare Anjorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damilaredevone/utils/issues"
+  },
+  "homepage": "https://github.com/damilaredevone/utils#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
