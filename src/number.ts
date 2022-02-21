@@ -1,3 +1,5 @@
+import { flattenArrayable } from './array';
+
 export const roundTo = (n: number, digits = 0): any => {
  let negative = false;
  let number: any = n;
@@ -33,3 +35,10 @@ export const formatNumber = (n: number): string => {
 
  return n.toString();
 };
+
+export const sum = (...args: number[] | number[][]) => {
+ return flattenArrayable(args).reduce((a, b) => a + b, 0);
+};
+
+export const percentage = (value: string): string =>
+ `${parseFloat(value).toFixed(2)}%`;
