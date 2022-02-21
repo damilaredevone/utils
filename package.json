@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "private": false,
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -17,7 +18,7 @@
     "build": "pnpm typecheck && tsup src/index.ts --format cjs,esm --dts --clean",
     "watch": "pnpm run build -- --watch src",
     "prepublishOnly": "pnpm run build",
-    "release": "bumpp --commit --push --tag && npm publish"
+    "release": "bumpp --commit --push --tag && npm publish --access=public"
   },
   "keywords": [
     "utils",
