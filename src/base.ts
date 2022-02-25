@@ -8,9 +8,7 @@ export const tap = <T>(value: T, callback?: (value: T) => void): T => {
  return value;
 };
 
-export const invoke = (fn: Fn) => {
- return fn();
-};
+export const invoke = (fn: Fn) => fn();
 
 export const classNames = (className: string[]): string =>
  castArray<string>(className)?.filter(Boolean).join(' ');
@@ -37,3 +35,19 @@ export const isKeyOf = <T extends object>(
 ): k is keyof T => {
  return k in obj;
 };
+
+/**
+ * @param  {unknown} value
+ * @returns valueisunknown
+ */
+export const value = (value: unknown): value is unknown =>
+ typeof value === 'function' ? value() : value;
+
+/**
+ * @param  {string} str
+ * @returns string
+ */
+export const toBase64 = (str: string): string =>
+ typeof window === 'undefined'
+  ? Buffer.from(str).toString('base64')
+  : window.btoa(str);
