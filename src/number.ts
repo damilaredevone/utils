@@ -42,3 +42,27 @@ export const sum = (...args: number[] | number[][]) => {
 
 export const percentage = (value: string): string =>
  `${parseFloat(value).toFixed(2)}%`;
+
+export const isValidInteger = (str: string): boolean => /^-?[\d]+$/g.test(str);
+
+export const isValidFloat = (str: string): boolean =>
+ /^-?[\d]+(\.[\d]+)$/g.test(str);
+
+export const removeLeadingZeros = (string: string): string =>
+ string.replace(/^(-?)0+(?!\.)(.+)/, '$1$2');
+
+export const addThousandSeparator = <T = unknown>(
+ value: T extends string ? string | number : string,
+ separator: string,
+): string =>
+ value.toString().replace(/(\d)(?=(?:\d{3})+\b)/gm, `$1${separator}`);
+
+export const numbersToCurrency = (
+ numbers: string,
+ precision: number,
+): string => {
+ numbers = numbers.padStart(precision + 1, '0');
+ return precision === 0
+  ? numbers
+  : `${numbers.slice(0, -precision)}.${numbers.slice(-precision)}`;
+};

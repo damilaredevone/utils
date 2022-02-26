@@ -12,3 +12,12 @@ export const truncate = (string: string, length = 30): string => {
  }
  return string;
 };
+
+export const replaceAt = (
+ str: string,
+ index: number,
+ chr: string | number,
+): string => {
+ if (index > str.length - 1) return str;
+ return str.substring(0, index) + chr + str.substring(index + 1);
+};

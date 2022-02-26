@@ -25,10 +25,10 @@ export const position = <T>(
  return array[index];
 };
 
-export const arrayIncludes = <Type>(
-	array: Type[] | readonly Type[],
-	item: unknown,
-	fromIndex?: number,
-): item is Type => {
-	return array.includes(item as Type, fromIndex);
-}
+export const arrayIncludes = <T>(
+ array: T[] | readonly T[],
+ item: unknown,
+ fromIndex?: number,
+): item is T => {
+ return array.includes(item as T, fromIndex);
+};
