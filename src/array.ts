@@ -13,6 +13,9 @@ export const flattenArrayable = <T>(
 export const last = <T>(array: readonly T[]): T | undefined =>
  position(array, -1);
 
+export const first = <T>(array: readonly T[]): T | undefined =>
+ position(array, 0);
+
 export const position = <T>(
  array: readonly T[] | [],
  index: number,
@@ -31,4 +34,30 @@ export const arrayIncludes = <T>(
  fromIndex?: number,
 ): item is T => {
  return array.includes(item as T, fromIndex);
+};
+
+export const arrayMoveMutable = <T>(
+ array: Arrayable<T>[],
+ fromIndex: number,
+ toIndex: number,
+): void => {
+ const startIndex = fromIndex < 0 ? array.length + fromIndex : fromIndex;
+
+ if (startIndex >= 0 && startIndex < array.length) {
+  const endIndex = toIndex < 0 ? array.length + toIndex : toIndex;
+
+  const [item] = array.splice(fromIndex, 1);
+  array.splice(endIndex, 0, item);
+ }
+};
+
+export const arrayMoveImmutable = <T>(
+ array: Arrayable<T>[],
+ fromIndex: number,
+ toIndex: number,
+): Arrayable<T>[] => {
+ const newArray = [...array];
+ arrayMoveMutable(newArray, fromIndex, toIndex);
+
+ return newArray;
 };

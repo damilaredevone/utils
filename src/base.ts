@@ -36,17 +36,9 @@ export const isKeyOf = <T extends object>(
  return k in obj;
 };
 
-/**
- * @param  {unknown} value
- * @returns valueisunknown
- */
 export const value = (value: unknown): value is unknown =>
  typeof value === 'function' ? value() : value;
 
-/**
- * @param  {string} str
- * @returns string
- */
 export const toBase64 = (str: string): string =>
  typeof window === 'undefined'
   ? Buffer.from(str).toString('base64')
