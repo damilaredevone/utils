@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@damilaredev/tsconfig': 1.5.1
+  '@damilaredev/tsconfig': 1.5.2
   '@types/node': 18.0.0
   bumpp: 8.2.1
   tsup: 6.1.3
   typescript: 4.7.4
 
 devDependencies:
-  '@damilaredev/tsconfig': 1.5.1
+  '@damilaredev/tsconfig': 1.5.2
   '@types/node': 18.0.0
   bumpp: 8.2.1
   tsup: 6.1.3_typescript@4.7.4
@@ -16,8 +16,8 @@ devDependencies:
 
 packages:
 
-  /@damilaredev/tsconfig/1.5.1:
-    resolution: {integrity: sha512-EbKb4Nl2+dpvdWNEUQtd+a+MS5tlR3vJtbIB+RqeMKfFynTiaN91mBmvk//cp+t64om1/Yy6x+4WqbPIwmakSw==}
+  /@damilaredev/tsconfig/1.5.2:
+    resolution: {integrity: sha512-KveiQv/XNypAq0z0vNry4d6ZaC95TA15mqFXcA1LFlDtvAoYE2ud+lQSbTYaxnvIbpaLpYXSe2s3HfCEq7Zh9A==}
     dev: true
 
   /@jsdevtools/ez-spawn/3.0.4:

@@ -31,7 +31,7 @@
   "license": "MIT",
   "homepage": "https://github.com/damilaredevone/utils#readme",
   "devDependencies": {
-    "@damilaredev/tsconfig": "1.5.1",
+    "@damilaredev/tsconfig": "1.5.2",
     "@types/node": "18.0.0",
     "bumpp": "8.2.1",
     "tsup": "6.1.3",
