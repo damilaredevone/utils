@@ -6,7 +6,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "private": false,
-  "packageManager": "pnpm@7.6.0",
+  "packageManager": "pnpm@7.7.1",
   "exports": {
     ".": {
       "require": "./dist/index.js",
