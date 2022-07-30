@@ -2,16 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@damilaredev/tsconfig': 1.5.2
-  '@types/node': 18.0.6
+  '@types/node': 18.6.1
   bumpp: 8.2.1
-  tsup: 6.2.0
+  tsup: 6.2.1
   typescript: 4.7.4
 
 devDependencies:
   '@damilaredev/tsconfig': 1.5.2
-  '@types/node': 18.0.6
+  '@types/node': 18.6.1
   bumpp: 8.2.1
-  tsup: 6.2.0_typescript@4.7.4
+  tsup: 6.2.1_typescript@4.7.4
   typescript: 4.7.4
 
 packages:
@@ -51,8 +51,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@types/node/18.0.6:
-    resolution: {integrity: sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==}
+  /@types/node/18.6.1:
+    resolution: {integrity: sha512-z+2vB6yDt1fNwKOeGbckpmirO+VBDuQqecXkgeIqDlaOtmKn6hPR/viQ8cxCfqLU4fTlvM3+YjM367TukWdxpg==}
     dev: true
 
   /any-promise/1.3.0:
@@ -821,8 +821,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/6.2.0_typescript@4.7.4:
-    resolution: {integrity: sha512-PNRQY/eUrtQgPHITOa9qU1Qss2AKHZl9OJFMsQGF+rpcQBMIYh5i0BUh5Gam8C8J0OuNQOGazqBEQHWMFLJKlQ==}
+  /tsup/6.2.1_typescript@4.7.4:
+    resolution: {integrity: sha512-KhBhCqVA3bHrIWhkcqTUA7R69H05IcBlHEtCVLEu42XDGUzz+bDqCcfu5PwpkKJ8DqK5tpdgM/qmyk4DdUbkZw==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
