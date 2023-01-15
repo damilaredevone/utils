@@ -1,5 +1,5 @@
-import { omit } from '../src'
 import { expectTypeOf } from 'vitest'
+import { omit } from '../src'
 
 describe('omit', () => {
   it('should be defined', () => {
