@@ -3,9 +3,9 @@
 Collections of resuable javascript utilities functions
 
 ```js
-import { sum } from '@damilaredev/utils';
+import { sum } from '@damilaredev/utils'
 
-const total = () => sum([1, 2, 3, 4, 5, 6]);
+const total = () => sum([1, 2, 3, 4, 5, 6])
 ```
 
 ```js

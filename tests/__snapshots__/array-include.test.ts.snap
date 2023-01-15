@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`ArrayIncludes > returns false if item is not included in array 1`] = `false`;
+
+exports[`ArrayIncludes > returns false if item is not included in array starting from a specific index 1`] = `false`;
+
+exports[`ArrayIncludes > returns true if item is included in array 1`] = `true`;
+
+exports[`ArrayIncludes > returns true if item is included in array starting from a specific index 1`] = `true`;

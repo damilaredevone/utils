@@ -1,19 +1,19 @@
 version: 2
 updates:
-# Fetch and update latest `npm` packages
-- package-ecosystem: npm
-  directory: '/'
-  schedule:
-    interval: "daily"
-  open-pull-requests-limit: 10
-  labels:
+  # Fetch and update latest `npm` packages
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    labels:
       - "npm"
       - "dependencies"
-  reviewers:
-    - damilare anjorin
-  assignees:
-    - damilare anjorin
-  commit-message:
-    prefix: fix
-    prefix-development: chore
-    include: scope
+    reviewers:
+      - damilare anjorin
+    assignees:
+      - damilare anjorin
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
