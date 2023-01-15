@@ -1,29 +1,25 @@
-import type { Fn } from './types';
+import type { Fn } from './types'
 
 export const when = (
- value: boolean,
- callback?: Fn,
- defaultCallback?: Fn,
+  value: boolean,
+  callback?: Fn,
+  defaultCallback?: Fn,
 ): void => {
- if (value) {
-  return callback?.(this, value) ?? this;
- } else if (defaultCallback) {
-  return defaultCallback?.(this, value);
- }
-
- return this;
-};
+  if (value) {
+    return callback?.()
+  } else if (defaultCallback) {
+    return defaultCallback?.()
+  }
+}
 
 export const unless = (
- value: boolean,
- callback?: Fn,
- defaultCallback?: Fn,
+  value: boolean,
+  callback?: Fn,
+  defaultCallback?: Fn,
 ): void => {
- if (!value) {
-  return callback?.(this, value) ?? this;
- } else if (defaultCallback) {
-  return defaultCallback?.(this, value);
- }
-
- return this;
-};
+  if (!value) {
+    return callback?.()
+  } else if (defaultCallback) {
+    return defaultCallback?.()
+  }
+}
