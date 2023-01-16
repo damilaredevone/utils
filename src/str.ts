@@ -21,3 +21,14 @@ export const replaceAt = (
   if (index > str.length - 1) return str
   return str.substring(0, index) + chr + str.substring(index + 1)
 }
+
+export const fromSlug = (str: string): string =>
+  str
+    .replace(/(^\w)/g, (g) => g[0].toUpperCase())
+    .replace(/([-_]\w)/g, (g) => ' ' + g[1].toUpperCase())
+    .trim()
+
+export const toQuery = (params: Record<string, any>): string =>
+  Object.keys(params)
+    .map((key) => `${key}=${params[key]}`)
+    .join('&')

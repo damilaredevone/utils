@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`Capitalize > should capitalize string 1`] = `"JOHN"`;
+
+exports[`String Utils > should capitalize string 1`] = `"JOHN"`;
