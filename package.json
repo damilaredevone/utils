@@ -2,7 +2,7 @@
   "name": "@damilaredev/utils",
   "version": "0.4.0",
   "description": "collections of utils",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "private": false,
@@ -10,7 +10,7 @@
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
+      "require": "./dist/index.js",
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }

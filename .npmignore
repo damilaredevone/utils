@@ -3,3 +3,6 @@ src
 pnpm-lock.yaml
 .github
 tests
+.eslintcache
+vitest.config.ts
+tsup.config.ts
