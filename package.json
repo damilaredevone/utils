@@ -46,7 +46,7 @@
     "@damilaredev/eslint-config-typescript": "^0.0.17",
     "@damilaredev/tsconfig": "1.5.2",
     "@types/jest": "^29.2.5",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "bumpp": "8.2.1",
     "eslint": "^8.32.0",
     "eslint-plugin-prettier": "^4.2.1",
