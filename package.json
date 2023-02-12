@@ -43,7 +43,7 @@
   "homepage": "https://github.com/damilaredevone/utils#readme",
   "devDependencies": {
     "@antfu/ni": "^0.20.0",
-    "@damilaredev/eslint-config-typescript": "^0.0.17",
+    "@damilaredev/eslint-config-typescript": "^0.0.18",
     "@damilaredev/tsconfig": "1.5.2",
     "@types/jest": "^29.2.5",
     "@types/node": "18.13.0",
