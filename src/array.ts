@@ -150,3 +150,7 @@ export const omit = <T>(
   Object.fromEntries(
     Object.entries(obj).filter(([k]: any) => !keys.includes(k)),
   )
+
+export const uniq = <T extends any[]>(a: T): T[] => {
+  return Array.from(new Set(a))
+}
