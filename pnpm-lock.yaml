@@ -10,7 +10,7 @@ specifiers:
   eslint: ^8.32.0
   eslint-plugin-prettier: ^4.2.1
   prettier: ^2.8.3
-  tsup: 6.6.0
+  tsup: 6.6.2
   typescript: 4.9.5
   vite: ^4.0.4
   vitest: ^0.28.0
@@ -25,7 +25,7 @@ devDependencies:
   eslint: 8.32.0
   eslint-plugin-prettier: 4.2.1_3vccgihvamfrdnqonsut5ihh4a
   prettier: 2.8.3
-  tsup: 6.6.0_typescript@4.9.5
+  tsup: 6.6.2_typescript@4.9.5
   typescript: 4.9.5
   vite: 4.0.4_@types+node@18.13.0
   vitest: 0.28.0
@@ -3204,8 +3204,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tsup/6.6.0_typescript@4.9.5:
-    resolution: {integrity: sha512-HxZE7Hj5yNxLFftCXdcJ+Jsax8dI4oKb0bt8fIvd1g/W0FZ46sU1pFBVo15WpOERFcEMH7Hykey/Q+hKO4s9RQ==}
+  /tsup/6.6.2_typescript@4.9.5:
+    resolution: {integrity: sha512-+yQ6SI4rVtp1+YpcYOePumJLEVQ896CDNRt9dJ2L/DeMnLf1+FTOCVw5eioLBH0xLdHgogO9NQ6vPNF5MfkSJw==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
