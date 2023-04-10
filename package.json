@@ -6,7 +6,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "private": false,
-  "packageManager": "pnpm@7.31.0",
+  "packageManager": "pnpm@7.32.0",
   "type": "module",
   "exports": {
     ".": {
