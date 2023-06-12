@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^29.2.5
     version: 29.2.5
   '@types/node':
-    specifier: 20.1.2
-    version: 20.1.2
+    specifier: 20.3.0
+    version: 20.3.0
   bumpp:
     specifier: 9.1.0
     version: 9.1.0
@@ -36,7 +36,7 @@ devDependencies:
     version: 5.0.4
   vite:
     specifier: ^4.0.4
-    version: 4.0.4(@types/node@20.1.2)
+    version: 4.0.4(@types/node@20.3.0)
   vitest:
     specifier: ^0.31.0
     version: 0.31.0
@@ -578,7 +578,7 @@ packages:
       '@jest/schemas': 29.0.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.1.2
+      '@types/node': 20.3.0
       '@types/yargs': 17.0.19
       chalk: 4.1.2
     dev: true
@@ -663,8 +663,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.1.2:
-    resolution: {integrity: sha512-CTO/wa8x+rZU626cL2BlbCDzydgnFNgc19h4YvizpTO88MFQxab8wqisxaofQJ/9bLGugRdWIuX/TbIs6VVF6g==}
+  /@types/node@20.3.0:
+    resolution: {integrity: sha512-cumHmIAf6On83X7yP+LrsEyUOf/YlociZelmpRYaGFydoaPdxdt80MAbu6vWerQT2COCp2nPvHdsbD7tHn/YlQ==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -2367,7 +2367,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.3.1
-      '@types/node': 20.1.2
+      '@types/node': 20.3.0
       chalk: 4.1.2
       ci-info: 3.7.1
       graceful-fs: 4.2.10
@@ -3425,7 +3425,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.31.0(@types/node@20.1.2):
+  /vite-node@0.31.0(@types/node@20.3.0):
     resolution: {integrity: sha512-8x1x1LNuPvE2vIvkSB7c1mApX5oqlgsxzHQesYF7l5n1gKrEmrClIiZuOFbFDQcjLsmcWSwwmrWrcGWm9Fxc/g==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3435,7 +3435,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.0.4(@types/node@20.1.2)
+      vite: 4.0.4(@types/node@20.3.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3446,7 +3446,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.0.4(@types/node@20.1.2):
+  /vite@4.0.4(@types/node@20.3.0):
     resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3471,7 +3471,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.1.2
+      '@types/node': 20.3.0
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
@@ -3513,7 +3513,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 20.1.2
+      '@types/node': 20.3.0
       '@vitest/expect': 0.31.0
       '@vitest/runner': 0.31.0
       '@vitest/snapshot': 0.31.0
@@ -3533,8 +3533,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.4.0
       tinypool: 0.5.0
-      vite: 4.0.4(@types/node@20.1.2)
-      vite-node: 0.31.0(@types/node@20.1.2)
+      vite: 4.0.4(@types/node@20.3.0)
+      vite-node: 0.31.0(@types/node@20.3.0)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
