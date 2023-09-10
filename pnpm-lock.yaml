@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@antfu/ni':
     specifier: ^0.21.3
-    version: 0.21.6
+    version: 0.21.8
   '@damilaredev/eslint-config-typescript':
     specifier: ^0.0.19
     version: 0.0.19(eslint@8.45.0)(typescript@5.2.2)
@@ -52,8 +52,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /@antfu/ni@0.21.6:
-    resolution: {integrity: sha512-Hj0BKIOspbo+OsPT5mjONeqpuVb4bxp9jdJ4p/b5GxgYNIqJjBcJdp0DEON7CJflKoWuHf7I52wO5kOJJ4DveQ==}
+  /@antfu/ni@0.21.8:
+    resolution: {integrity: sha512-90X8pU2szlvw0AJo9EZMbYc2eQKkmO7mAdC4tD4r5co2Mm56MT37MIG8EyB7p4WRheuzGxuLDxJ63mF6+Zajiw==}
     hasBin: true
     dev: true
 
