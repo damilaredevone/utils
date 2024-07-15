@@ -42,7 +42,7 @@
   "license": "MIT",
   "homepage": "https://github.com/damilaredevone/utils#readme",
   "devDependencies": {
-    "@antfu/ni": "^0.21.3",
+    "@antfu/ni": "^0.22.0",
     "@damilaredev/eslint-config-typescript": "^0.0.19",
     "@damilaredev/tsconfig": "1.5.2",
     "@types/jest": "^29.2.5",
